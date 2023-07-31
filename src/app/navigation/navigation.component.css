@@ -1,0 +1,17 @@
+.nav{
+  display: flex;
+}
+.cat{
+  flex:2;
+}
+.units button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #1a1a1a;
+  background-color: #fff;
+}
+.units button.active {
+  color: #fff;
+  background-color: #1a1a1a;
+}

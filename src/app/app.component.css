@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+  --primary-color: #5598fd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 1000px;
+  padding: 50px;
+  background: var(--primary-color);
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/cd.jpg"); */
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease;
+}
+img {
+  width: 100%;
+}
+.wrapper {
+  display: flex;
+  width: 1200px;
+  min-width: 900px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.main {
+  width: 100%;
+  min-width: 400px;
+  padding: 20px 40px;
+  background-color: #f6f6f8;
+  position: relative;
+  padding-bottom: 90px;
+}
+
+.main nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main nav .options {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.main nav .options button {
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #495057;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.main nav .options button.active {
+  color: var(--primary-color);
+}
+.main nav .units button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #1a1a1a;
+  background-color: #fff;
+}
+.main nav .units button.active {
+  color: #fff;
+  background-color: #1a1a1a;
+}
+
