@@ -1,9 +1,4 @@
-.nav{
-  display: flex;
-}
-.cat{
-  flex:2;
-}
+
 .units button {
   width: 40px;
   height: 40px;
@@ -12,6 +7,48 @@
   background-color: #fff;
 }
 .units button.active {
+  color: #fff;
+  background-color: #1a1a1a;
+}
+.main {
+  width: 100%;
+  min-width: 400px;
+  padding: 20px 40px;
+  background-color: #f6f6f8;
+  position: relative;
+  padding-bottom: 90px;
+}
+
+.main nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main nav .options {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.main nav .options button {
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #495057;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.main nav .options button.active {
+  color: var(--primary-color);
+}
+.main nav .units button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #1a1a1a;
+  background-color: #fff;
+}
+.main nav .units button.active {
   color: #fff;
   background-color: #1a1a1a;
 }

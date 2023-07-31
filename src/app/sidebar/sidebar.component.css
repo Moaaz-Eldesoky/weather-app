@@ -1,11 +1,11 @@
 .sidebar {
-  width: 30%;
+  /* width: 30%; */
   min-width: 250px;
   padding: 20px;
   background: rgba(255, 255, 255, 0.815);
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 .search {
   display: flex;
@@ -68,7 +68,7 @@
 }
 
 .weather-icon {
-  width: 100%;
+  width: 50%;
   height: 150px;
   text-align: center;
   margin-top: 20px;

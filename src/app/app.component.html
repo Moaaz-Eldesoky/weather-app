@@ -1,23 +1,10 @@
-<div class="wrapper">
-  <app-sidebar></app-sidebar>
-  <div class="main">
-    <app-navigation></app-navigation>
+<div class="container-fluid">
+  <div class="row full-app">
+    <app-sidebar class="col-3"></app-sidebar>
 
-    <!-- static nav -->
-
-    <!-- <nav>
-      <ul class="options">
-        <button class="hourly">today</button>
-        <button class="week active">week</button>
-      </ul>
-      <ul class="options units">
-        <button class="celcius active">°C</button>
-        <button class="fahrenheit">°F</button>
-      </ul>
-    </nav> -->
-
-
+    <app-navigation class="col-9"></app-navigation>
   </div>
+
 </div>
 
 <router-outlet></router-outlet>
