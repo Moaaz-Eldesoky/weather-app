@@ -1,8 +1,7 @@
 .cards {
-
-  margin-top: 30px;
+  margin-top: 10px;
 }
-.cards .card {
+.card {
   width: 100px;
   height: 130px;
   border-radius: 20px;
@@ -18,23 +17,15 @@
   font-size: 15px;
   font-weight: 600;
 }
-.card .card-icon {
-  width: 50%;
-  margin: 0 auto;
+.card-icon img {
+  height: 50px;
+  margin-top: -15px;
 }
-/* .card .day-temp {
-  font-size: 12px;
-  display: flex;
-  justify-content: center;
-  display: flex;
-} */
-/* .highlights {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin-top: 50px;
-} */
+.small-cards{
+  margin-top: 30px;
+}
 .highlights .heading {
+  margin-top: 30px;
   width: 100%;
   font-size: 20px;
   font-weight: 600;
@@ -42,12 +33,13 @@
 }
 
 .card2 {
-  /* width: 250px;
-  height: 150px; */
+
   border-radius: 20px;
   color: #1a1a1a;
   background-color: #fff;
   padding: 10px 20px;
+  width: 200px;
+  margin-right: 10px;
 
 }
 .card2 .card-heading {
@@ -56,6 +48,12 @@
 
 .card2 .content {
   margin-top: 20px;
+}
+.day-temp {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  display: flex;
 }
 .card2 .content p:first-child {
   text-align: center;

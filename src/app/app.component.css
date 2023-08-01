@@ -10,15 +10,13 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body {
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
-  min-width: 1000px;
-  padding: 50px;
+.container-fluid{
+
+  /* justify-content: center; */
+
+  padding: 100px 100px;
   background: var(--primary-color);
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./images/cd.jpg"); */
+  background-image:url("https://cdn2.hubspot.net/hubfs/2936356/maxresdefault.jpg");
   background-size: cover;
   background-position: center;
   transition: background-image 0.3s ease;
@@ -26,10 +24,3 @@ body {
 img {
   width: 100%;
 }
-/* .wrapper {
-  display: flex;
-  width: 1200px;
-  min-width: 900px;
-  border-radius: 20px;
-  overflow: hidden;
-} */
